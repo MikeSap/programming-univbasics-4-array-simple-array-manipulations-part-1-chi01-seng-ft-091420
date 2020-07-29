@@ -7,12 +7,11 @@
  end
  
  def using_pop (array)
-   array.pop
+  array.pop
  end
  
  def pop_with_args (array)
-   array.pop
-   array.pop
+   2.times do  array.pop
  end
  
  def using_shift (array)
