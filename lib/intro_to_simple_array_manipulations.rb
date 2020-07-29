@@ -15,3 +15,6 @@
    array.pop
  end
  
+ def using_shift (array)
+   array.using_shift
+   
