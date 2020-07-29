@@ -10,8 +10,8 @@
   array.pop
  end
  
- def pop_with_args (array)
-   2.times do  array.pop
+ def pop_with_args (array, arg)
+  array.pop(arg)
  end
  
  def using_shift (array)
